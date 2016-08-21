@@ -19,6 +19,7 @@ namespace jsonCSharp.Models
         public string refugees;
         public string research;
         public int distance;
+        public string[] nearbyLocations;
     }
 
     public class ServerData

@@ -8,7 +8,6 @@ namespace jsonCSharp.Controllers
 {
     public class DataController : Controller
     {
-
         //
         // GET: /Data/
         public ActionResult getPrices()
@@ -25,6 +24,11 @@ namespace jsonCSharp.Controllers
             currentLocationData.foodPrice = "4";
             currentLocationData.fuelPrice = "5";
             currentLocationData.weaponPrice = "50";
+            currentLocationData.nearbyLocations = new string[4];
+            currentLocationData.nearbyLocations[0] = "Luna";
+            currentLocationData.nearbyLocations[1] = "Mars";
+            currentLocationData.nearbyLocations[2] = "F3";
+            currentLocationData.nearbyLocations[3] = "Earth";
             return Json(currentLocationData, JsonRequestBehavior.AllowGet);
         }
 	}
