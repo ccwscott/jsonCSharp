@@ -1,0 +1,39 @@
+body{background-color:Gray;padding:0px;}
+
+.mainScreen
+{
+    background-color:Black;
+    color:Green;
+    border-style:solid;
+    border-color:White;
+    border-width:1px;
+    width:710px;
+}
+
+h2,h3{margin:10px;}
+
+a{color:green;margin:5px;display:block}
+
+.leftColumn
+{
+    padding-bottom:8px;
+    margin:10px;
+    border-color:White;
+    border-style:solid;
+    border-width:1px;
+}
+
+.rightColumn
+{
+    margin:10px;
+    border-color:White;
+    border-style:solid;
+    border-width:1px;
+}
+
+.priceListing
+{
+    margin:10px;
+}
+    
+    
